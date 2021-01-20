@@ -6,6 +6,17 @@ I wrote this to replace a broken controller box for a metal pad I bought years a
 
 My first Arduino project!
 
+## Requirements
+
+* Keyboard - stdlib
+* Bounce2, downloadable with Arduino IDE
+
+## Notes
+
+* Debounce threshold is 50ms by default
+* `loop()` is being executed about 14,000 times per second with a rough benchmark, so theoretically 14kHz poll rate
+* Unsure what USB poll rate
+
 ## Future ideas
 
 Pull requests welcome!
